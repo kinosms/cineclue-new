@@ -1,0 +1,15 @@
+# 의존성 폴더 (용량이 너무 크고 배포 시 자동 생성됨)
+node_modules/
+
+# 빌드 결과물
+.next/
+out/
+build/
+
+# 환경 변수 및 설정 (보안상 중요)
+.env*.local
+.vercel
+
+# 운영체제 생성 파일
+.DS_Store
+Thumbs.db
